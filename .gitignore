@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+
+# Python-specific
+__pycache__/
+.venv/
+venv/
+env/
+*.pyc
+*.egg-info/
+.Python
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Build output
+/build
+/dist
+/out
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-debug.log
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+
+# Next.js specific
+.next/
+
+# React Native / Expo
+.expo/
+.expo-shared/
+.expo-dev/
+.expo/*
+
+# Metro bundler cache
+/metro-cache/
+/.expo/web-build/
+
+# Android build
+/android/app/build/
+/android/.gradle/
+/android/.idea/
+/android/local.properties
+/android/captures/
+
+# iOS build
+/ios/build/
+/ios/Pods/
+/ios/DerivedData/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+project.xcworkspace/
+*.pbxuser
+
+# Fastlane
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+/fastlane/test_output
+
+# Expo CLI caches
+.expo/
+.expo-shared/
+
+# Misc
+*.apk
+*.aab
+*.ipa
