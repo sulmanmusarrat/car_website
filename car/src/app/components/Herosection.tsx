@@ -1,7 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import ProductCard from './ProductCard';
-
 export default function Herosection() {
     return (
         <>
@@ -26,12 +24,6 @@ export default function Herosection() {
                     </button>
                 </div>
             </section>
-
-
-                    <h1 className='text-white font-bold font-serif px-20 py-6 text-3xl'>Our Models</h1>
-            <section className='relative flex items-center justify-center h-screen w-full'>
-            </section>
-            <ProductCard/>
         </>
     );
 }
